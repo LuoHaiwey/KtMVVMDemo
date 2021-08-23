@@ -1,6 +1,5 @@
-package com.lhw.ktmvvmdemo.request
+package com.lhw.ktmvvmdemo.model
 
-import com.lhw.ktmvvmdemo.model.WeatherBean
 import retrofit2.Call
 import retrofit2.http.GET
 

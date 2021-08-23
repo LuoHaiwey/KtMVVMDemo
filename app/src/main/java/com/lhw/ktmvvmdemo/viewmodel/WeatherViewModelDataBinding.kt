@@ -3,8 +3,7 @@ package com.lhw.ktmvvmdemo.viewmodel
 import android.util.Log
 import com.lhw.ktmvvmdemo.http.RetrofitServer
 import com.lhw.ktmvvmdemo.model.WeatherBean
-import com.lhw.ktmvvmdemo.model.WeatherObserver
-import com.lhw.ktmvvmdemo.request.WeatherService
+import com.lhw.ktmvvmdemo.model.WeatherService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -19,7 +18,7 @@ import retrofit2.Response
  * 修改历史 : 2021/08/09  1.00 初始版本
  * ****************************************************************
  */
-class WeatherViewModel() {
+class WeatherViewModelDataBinding() {
     private lateinit var mCall: Call<WeatherBean>
     var weatherObservable = WeatherObserver()
 

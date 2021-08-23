@@ -1,10 +1,10 @@
-package com.lhw.ktmvvmdemo.model
+package com.lhw.ktmvvmdemo.viewmodel
 
 import androidx.databinding.ObservableField
 
 /**
  * ****************************************************************
- * 文件名称 : com.lhw.ktmvvmdemo.model.WeatherObserver
+ * 文件名称 : com.lhw.ktmvvmdemo.viewmodel.WeatherObserver
  * 作    者 : lhw
  * 创建时间 : 2021/08/13 17:00
  * 文件描述 : java类作用描述
